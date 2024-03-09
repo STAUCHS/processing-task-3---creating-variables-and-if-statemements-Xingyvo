@@ -2,7 +2,7 @@ import processing.core.PApplet;
 
 public class Sketch extends PApplet {
   // Define the variables
-	float sunX;
+  float sunX;
   float sunY;
   float boatX;
   float boatY;
@@ -37,7 +37,7 @@ public class Sketch extends PApplet {
     mastX = random(100, 300);
     mastY = random(300, 350);
 
-    // Change the background colour depending on the vairable value
+    // Change the background colour depending on the variable's value
     if (sunX > 200) {
       background(19, 24, 98);
     }
@@ -62,7 +62,7 @@ public class Sketch extends PApplet {
     fill(255, 255, 255);
     triangle(boatX + 80, boatY - 50, boatX + 115, boatY - 70, boatX + 80, boatY - 90);
 
-    // create a circle shape, fill with a bright yellow colour
+    // create a circle shape, colour changes based on the variable's value
     if (sunX > 200) {
       fill(194, 197, 204);
     }
