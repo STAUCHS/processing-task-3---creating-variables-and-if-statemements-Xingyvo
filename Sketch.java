@@ -1,5 +1,11 @@
 import processing.core.PApplet;
-
+/**
+* A program Sketch.java that draws a boat and a sun in random locationsc to indicate the time of day. 
+* If the sun is near the middle of the window, the sky will turn redish, indicating sunset. If the
+* sun is more to the rght of the window, the sun turns into a moon and the sky turns dark. 
+* The program also shows the date and time.
+* @author: B. Yu
+*/
 public class Sketch extends PApplet {
   // Define the variables
   float sunX;
